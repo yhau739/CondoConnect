@@ -1,7 +1,7 @@
-🏢 **CondoConnect** 
+## 🏢 **CondoConnect** 
 > CondoConnect is an Android mobile application designed to enhance communication and decision-making among condominium residents and management. The app provides real-time voting, event scheduling, and community discussion boards to improve engagement and transparency.
 
-🚀 **Features**
+## 🚀 **Features**
 - 🗳 Real-time Voting – Participate in community decisions with instant voting.
 - 📅 Event Scheduling – Organize and track condominium events.
 - 💬 Community Discussion Boards – Foster communication between residents and management.
@@ -9,7 +9,7 @@
 - 🏢 Resident & Management Portal – Separate access for residents and administrators.
 - 📜 Rules & Regulations – Easily accessible condo guidelines.
 
-🛠️ **Tech Stack**
+## 🛠️ **Tech Stack**
 - Language: Kotlin
 - Framework: Android Jetpack
 - Database: Firebase Firestore
@@ -17,10 +17,10 @@
 - UI: XML with Material Design Components
 - Notifications: Firebase Cloud Messaging (FCM)
 
-📸 **Screenshots**
+## 📸 **Screenshots**
 
 
 
-📝 **License**
+## 📝 **License**
 > This project is open-source under the MIT License.
 

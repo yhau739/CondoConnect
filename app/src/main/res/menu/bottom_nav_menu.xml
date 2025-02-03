@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+        <item
+            android:id="@+id/navigation_feedback"
+            android:icon="@drawable/form"
+            android:title="My Feedbacks" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_club"-->
+<!--        android:icon="@drawable/baseline_people_24"-->
+<!--        android:title="Clubs" />-->
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/feedback"-->
+<!--        android:title="Feedback" />-->
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CondoConnect</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="notification_bell_description">Notification Bell</string>
+    <string name="logout_description">Logout</string>
+    <string name="add_notice">Add New Notice</string>
+    <string name="add_visitor">Add New Visitor</string>
+    <string name="add_booking">Add New Booking</string>
+    <string-array name="feedback_types">
+        <item>General</item>
+        <item>Bug Report</item>
+        <item>Feature Request</item>
+        <item>Finance</item>
+        <item>Events</item>
+    </string-array>
+</resources>

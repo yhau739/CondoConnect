@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705396752869",
+    "project_id": "learningandroid-1b19c",
+    "storage_bucket": "learningandroid-1b19c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705396752869:android:c67239eea1289d1956af0c",
+        "android_client_info": {
+          "package_name": "com.example.learningandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChaC0i3bGMP8UmPR2l04pDmD_XEwQ_dHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

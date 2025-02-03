@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/bx_arrow_back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:text="Add Visitor"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etVisitorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Visitor Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etUnitNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Number"
+        android:inputType="text"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/etRegisteredBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registered By"
+        android:inputType="text"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/etContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/etVehicleNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Visitor's vehicle number"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etValidTill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Visit End Date"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnAddVisitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Visitor"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

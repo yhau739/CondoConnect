@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/my_logo"
+        android:label="CondoConnect"
+        android:roundIcon="@drawable/my_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearningAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".MyFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyClubsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JoinClubsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddClubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManageClub"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubmitFeedback"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".Feedback"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".AdminBookingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".AdminApproveCancelBooking"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookingPage"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookingFacility"
+            android:exported="false" />
+        <activity
+            android:name=".FacilityModel"
+            android:exported="false" />
+        <activity
+            android:name=".Facility"
+            android:exported="false" />
+        <activity
+            android:name=".AdminVisitorHistory"
+            android:exported="false" />
+        <activity
+            android:name=".AdminVisitor"
+            android:exported="false" />
+        <activity
+            android:name=".AddVisitorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Visitor"
+            android:exported="false" />
+        <activity
+            android:name=".UserDocumentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin_documents"
+            android:exported="false" />
+        <activity
+            android:name=".AdminApproveBill"
+            android:exported="false" />
+        <activity
+            android:name=".AddNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notice"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminGenerateBill"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".billing"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
